@@ -1,0 +1,79 @@
+header {
+    height: 100vh;
+    background: url(/assets/img/bg-slider-06.jpg) center/cover;
+    display: flex;
+    flex-direction: column;
+    
+    nav {
+        color: white;
+        padding: 20px 0;
+       display: grid;
+       width: 80%;
+       margin: 0 auto;
+       grid-template-columns: 20% 60% 20%;
+       align-items: center;
+
+       .logo {
+        font-size: 3rem;
+        font-family: $font1;
+       }
+
+        .link ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: $font3;
+            text-transform: uppercase;
+            li {
+                font-size: 1.1rem;
+            }
+        }
+        
+        .media ul {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            li {
+                font-size: 1.1rem;
+                margin: 0 20px;
+            }
+        }
+
+    }
+
+    .header-content {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+
+        span {
+            font-family: $font1;
+            color: $color1;
+            font-size: 4rem;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            font-family: $font3;
+            letter-spacing: 10px;
+            margin: 0 0 30px;
+        }
+
+        img {
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 0.8rem;
+            font-family: $font3;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+    }
+}
